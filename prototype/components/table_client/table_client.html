@@ -1,0 +1,46 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Date of Birth</th>
+            <th scope="col">Delete</th>
+        </tr>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col"><input class="form-control" placeholder="Filter by name"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td><a href="">Mary Luce</a></td>
+            <td>204-293-5839</td>
+            <td>06/22/2000</td>
+            <td>
+                <img src="/prototype/components/table_client/svg/trash3-fill.svg" width="20" height="20" alt="next">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td><a href="">John Peter</a></td>
+            <td 657-843-5339></td>
+            <td>11/13/2001</td>
+            <td>
+                <img src="/prototype/components/table_client/svg/trash3-fill.svg" width="20" height="20" alt="next">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="paginator"></div>
+
+<script>
+        $(function () {
+            $("#paginator").load("../components/paginator/paginator.html");
+        })
+    </script>
