@@ -80,5 +80,5 @@
 ### Model
 ![Model](out/docs/model/model.png)
 
-
-
+### Endpoints
+![Model](out/docs/end_points/end_points.png)
