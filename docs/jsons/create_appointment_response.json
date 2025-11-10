@@ -1,0 +1,20 @@
+{
+    "id": 35,
+    "date": "2025-06-26",
+    "startTime": "15:30:00",
+    "endTime": "16:00:00",
+    "comments": "no comments",
+    "status": "OPEN",
+    "type": {
+        "id": 1
+    },
+    "area": {
+        "id": 2
+    },
+    "professional": {
+        "id": 5
+    },
+    "client": {
+        "id": 2
+    }
+}
